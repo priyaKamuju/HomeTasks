@@ -1,0 +1,10 @@
+function createSecretHolder(secret) {
+    var secret1 = secret;
+    return{
+      getSecret: function(){return secret1;},
+      setSecret: function(secret){
+        secret1 = secret;
+      }
+    }
+  
+  }
